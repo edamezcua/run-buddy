@@ -107,7 +107,7 @@ header {
   }
   /* Hero Style Start */
   .hero {
-    background-image: url(../run-buddy/Assets/images/hero-bg.jpeg);
+    background-image: url(../images/hero-bg.jpeg);
     height: 600px;
     background-size: cover;
     background-position: center;
@@ -271,3 +271,5 @@ header {
   color: #fce138;
 }
 /* REACH OUT STYLES END */
+
+
