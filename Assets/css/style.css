@@ -56,19 +56,22 @@ header {
    padding-bottom: 20px;
    padding-left: 25px;
  }
+ header {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+ } 
  header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    display: inline;
-    margin: 0;
-  }
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+  color: #fce138;
+}
   header a {
     text-decoration: none;  
     color: #fce138;
   }
   header nav {
-    float: right;
     margin: 7px 0;
   }
   header nav ul li {
