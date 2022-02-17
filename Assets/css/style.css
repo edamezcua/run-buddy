@@ -74,12 +74,17 @@ header {
   header nav {
     margin: 7px 0;
   }
-  header nav ul li {
-    display: inline;
-  }header nav ul li a {
+  header nav ul {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space space-between;
+   align-self: center;
+   list-style: none;
+  }
+  header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
   }
   footer {
     background: #fce138;
@@ -100,7 +105,7 @@ header {
   footer a {
     color: #024e76;
   }
-  * {
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
