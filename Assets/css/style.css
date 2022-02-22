@@ -238,9 +238,8 @@ header {
     align-items: center;
     justify-content: space-between;
   }
-  .trainers {
-    
-  }
+  /*.trainers {
+  }*/
   .trainer {
     width: 900px;
     margin: 0 auto 30px auto;
